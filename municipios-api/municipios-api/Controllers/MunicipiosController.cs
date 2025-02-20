@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using municipios_api.Models;
 using System.Text.Json;
-using Microsoft.EntityFrameworkCore.InMemory;
 using Microsoft.EntityFrameworkCore;
 using municipios_api.Data;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace municipios_api.Controllers
 {
@@ -151,7 +148,7 @@ namespace municipios_api.Controllers
 
                     using (var context = new ApplicationContext(options))
                     {
-                        // Adiciona um range de municípios
+                        // Obtém um município por ID
                         var municipio = context.Municipios.Find(id);
 
                         if (municipio != null)

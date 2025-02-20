@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/municipios-api/municipios-api/obj/Debug/net7.0/municipios-api.dll
+/municipios-api/municipios-api/obj/Debug/net7.0/municipios-api.pdb
+/municipios-api/municipios-api/bin/Debug/net7.0/municipios-api.pdb
+/municipios-api/municipios-api/bin/Debug/net7.0/municipios-api.dll
+/municipios-api/.vs/ProjectEvaluation/municipios-api.projects.v7.bin
+/municipios-api/.vs/ProjectEvaluation/municipios-api.metadata.v7.bin
+/municipios-api/.vs/municipios-api/v17/.suo
+/municipios-api/.vs/municipios-api/v17/.futdcache.v2
+/municipios-api/.vs/municipios-api/DesignTimeBuild/.dtbcache.v2
